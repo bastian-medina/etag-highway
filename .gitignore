@@ -1,0 +1,21 @@
+# dependencies
+/node_modules
+
+# build output
+/dist
+
+# IDE files
+/.idea
+/.vscode
+
+# testing artifacts
+/coverage
+
+# local development files
+/.env.local
+/.env.*.local
+/.env
+
+# other files
+.DS_Store
+Thumbs.db
