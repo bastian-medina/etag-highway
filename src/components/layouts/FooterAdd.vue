@@ -50,7 +50,7 @@
         <q-item v-ripple>
           <q-item-section>
             <q-item-label  class="text-black">Dirección:</q-item-label>
-            <q-item-label caption  class="text-black">Huerfanos 335, 5to piso, Oficina #505, Santiago</q-item-label>
+            <q-item-label caption  class="text-black">Of. 403, piso 4, calle Huelen N°10, Providencia</q-item-label>
           </q-item-section>
         </q-item>
       </q-list>

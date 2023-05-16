@@ -28,12 +28,14 @@
                         :options="options"
                     />
 
-                    <q-input filled label="Nombre Completo *"></q-input>
+                    <q-input filled v-model="fullName" label="Nombre Completo *"></q-input>
+
+                    <q-input filled v-model="enterprise" label="Empresa *"></q-input>
 
                     <q-input filled v-model="email" type="email" suffix="@gmail.com"></q-input>
 
 
-                    <h7 style="margin-top: 40px;">Mensaje:</h7>
+                    <h7 style="margin-top: 40px;">Envianos tu Solicitud:</h7>
                     <q-editor v-model="message"/>
 
                 </q-card-section>
@@ -52,10 +54,11 @@
 <script setup>
 import { ref } from 'vue'
 
+const fullName = ref('')
 const message = ref('')
+const enterprise = ref('')
 const select = ref('')
 const options = ref([
-        'Servicios integrales generales', 'Aseo industrial', 'Aseo Hospitales', 'Aseo de Oficinas', 'Aire Acondicionado',
-        'Reparación de Servicios Electricos', 'Servicio de Soporte al Cliente'
+        'Solicitud de cotización', 'Otras consultas',
       ])
 </script>
